@@ -10,3 +10,5 @@ The agent learns to play the MsPacman-v0 Gym environment.
 I modified the example found from https://keon.io/deep-q-learning/ by implementing the CNN model and target model logic (among other things).
 
 Hyperparameters were chosen according to the original paper as well as from https://github.com/ageron/tiny-dqn which also provided the image preprocessing method.
+
+One key trick I found lead to better policies was introducing a fixed penalty of -1 at each action which did not naturally have a reward.

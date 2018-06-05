@@ -7,7 +7,7 @@ The agent learns to play the MsPacman-v0 Gym environment.
 
 ![Alt text](mspacman.jpg?raw=true "Title")
 
-I modified the example found from https://keon.io/deep-q-learning/ by implementing the CNN model and target model logic (among other things).
+I modified the example found from https://keon.io/deep-q-learning/ by implementing the CNN model, target model logic, and frame averaging (among other things).
 
 Hyperparameters were chosen according to the original paper as well as from https://github.com/ageron/tiny-dqn which also provided the image preprocessing method.
 

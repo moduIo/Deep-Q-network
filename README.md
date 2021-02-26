@@ -12,6 +12,12 @@ I modified the example found from https://keon.io/deep-q-learning/ by implementi
 Hyperparameters were chosen according to the original paper as well as from https://github.com/ageron/tiny-dqn which also provided the image preprocessing method.  One key trick I found lead to better policies was introducing a fixed penalty of -1 at each action which did not naturally have a reward.
 
 ---
+# Instructions
+This is a Python 3 project and you should have a local Python 3 `venv`.
+1. Install libraries: `$ pip install -r requirements.txt`
+2. Run notebooks: `$ jupyter notebook`
+
+---
 # Double Deep Q-network
 Double Deep Q-network (DDQN.ipynb) is implemented.  See: https://arxiv.org/pdf/1509.06461.pdf
 
